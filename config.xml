@@ -46,6 +46,7 @@
     <allow-navigation href="https://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="mailto:*" />
+    <allow-intent href="bitcoin:*" />
     <allow-intent href="ethereum:*" />
     <platform name="android">
         <allow-intent href="market:*" />
