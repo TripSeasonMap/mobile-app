@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.tripseasonmap" version="0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.tripseasonmap" version="0.9.1" xmlns:android="http://schemas.android.com/apk/res/android" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Trip Season Map</name>
     <description>Trip Season Map shows you the best season to travel! And make plan your next adventure just that little bit easier.</description>
     <author email="go@tripseasonmap.com" href="https://tripseasonmap.com">Epexa</author>
@@ -18,6 +18,9 @@
         <icon density="xhdpi" src="res/icon/android/mipmap-xhdpi.png" />
         <icon density="xxhdpi" src="res/icon/android/mipmap-xxhdpi.png" />
         <icon density="xxxhdpi" src="res/icon/android/mipmap-xxxhdpi.png" />
+        <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:label='@string/activity_name']" mode="merge">
+          <activity android:theme="@android:style/Theme.Material.Light.NoActionBar"></activity>
+        </edit-config>
     </platform>
     <platform name="ios">
         <icon platform="ios" src="res/icon/ios/20.png" height="20" width="20" />
