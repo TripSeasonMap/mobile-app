@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.tripseasonmap" version="0.9.58" xmlns:android="http://schemas.android.com/apk/res/android" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.tripseasonmap" version="0.9.60" xmlns:android="http://schemas.android.com/apk/res/android" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
 	<name>Trip Season Map</name>
 	<description>Trip Season Map shows you the best season to travel! And make plan your next adventure just that little bit easier.</description>
 	<author email="go@tripseasonmap.com" href="https://tripseasonmap.com">Epexa</author>
